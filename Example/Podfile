@@ -1,0 +1,6 @@
+use_frameworks!
+target 'ObjCTry_Tests' do
+  pod 'ObjCTry', :path => '../'
+  
+  
+end
