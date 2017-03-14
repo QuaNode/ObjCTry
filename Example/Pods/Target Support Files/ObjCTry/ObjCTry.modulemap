@@ -1,0 +1,6 @@
+framework module ObjCTry {
+  umbrella header "ObjCTry-umbrella.h"
+
+  export *
+  module * { export * }
+}

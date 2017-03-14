@@ -1,0 +1,16 @@
+PODS:
+  - ObjCTry (0.1.0)
+
+DEPENDENCIES:
+  - ObjCTry (from `../`)
+
+EXTERNAL SOURCES:
+  ObjCTry:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ObjCTry: f3e7d598635f64796e2eb4350cf42ee08840a199
+
+PODFILE CHECKSUM: cb8e2bd6e2fef99bdce103bfdd9ae5c0265f980f
+
+COCOAPODS: 1.2.0

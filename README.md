@@ -1,28 +1,36 @@
+ [![Version](https://img.shields.io/cocoapods/v/ObjCTry.svg?style=flat)](http://cocoapods.org/pods/ObjCTry) [![License](https://img.shields.io/cocoapods/l/ObjCTry.svg?style=flat)](http://cocoapods.org/pods/ObjCTry) [![Platform](https://img.shields.io/cocoapods/p/ObjCTry.svg?style=flat)](http://cocoapods.org/pods/ObjCTry)
+
 # ObjCTry
 
-[![CI Status](http://img.shields.io/travis/Svetislav Markovic/ObjCTry.svg?style=flat)](https://travis-ci.org/Svetislav Markovic/ObjCTry)
-[![Version](https://img.shields.io/cocoapods/v/ObjCTry.svg?style=flat)](http://cocoapods.org/pods/ObjCTry)
-[![License](https://img.shields.io/cocoapods/l/ObjCTry.svg?style=flat)](http://cocoapods.org/pods/ObjCTry)
-[![Platform](https://img.shields.io/cocoapods/p/ObjCTry.svg?style=flat)](http://cocoapods.org/pods/ObjCTry)
-
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+Simple code wrapper to help catching ObjC exceptions within Swift. It works simply by converting exceptioins to errors and rethrows them to allow Swift do-catch block to catch them.  
 
 ## Requirements
 
+iOS 8.0, Swift 3.0
+
+## Example usage
+
+```swift
+do {
+try ObjC.try {
+// code that throws ObjC exceptions
+}
+} catch {
+print(error)
+}
+```
+
 ## Installation
 
-ObjCTry is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+ObjCTry is available through [CocoaPods](http://cocoapods.org). To install it, simply add the following line to your Podfile:
 
 ```ruby
-pod "ObjCTry"
+pod "ObjCTry", "~> 1.0"
 ```
 
 ## Author
 
-Svetislav Markovic, svetam.sd@gmail.com
+Svetislav Markovic (svetam.sd@gmail.com)
 
 ## License
 
