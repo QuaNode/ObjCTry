@@ -22,10 +22,20 @@ print(error)
 
 ## Installation
 
-ObjCTry is available through [CocoaPods](http://cocoapods.org). To install it, simply add the following line to your Podfile:
+### ObjCTry is available through [CocoaPods](https://cocoapods.org). 
+
+To install it, simply add the following line to your Podfile:
 
 ```ruby
 pod "ObjCTry", "~> 1.0"
+```
+
+### ObjCTry is available through [Carthage](https://github.com/Carthage/Carthage). 
+
+To install it, simply add the following line to your Carthage file:
+
+```ruby
+github "svetam/ObjCTry" ~> 1.0
 ```
 
 ## Author
