@@ -9,6 +9,6 @@
 
 @interface ObjC : NSObject
 
-+ (BOOL)try:(void(^)())tryBlock error:(__autoreleasing NSError **)error;
++ (BOOL)try:(void(^)(void))tryBlock error:(__autoreleasing NSError **)error;
 
 @end

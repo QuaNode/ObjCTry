@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		3157F2D5219DCD8C003D72B1 /* ObjCTry.h in Headers */ = {isa = PBXBuildFile; fileRef = 3157F2D3219DCD8C003D72B1 /* ObjCTry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3157F2EC219DCDDF003D72B1 /* ObjCTry+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3157F2E8219DCDDF003D72B1 /* ObjCTry+Helper.m */; };
-		3157F2EE219DCDDF003D72B1 /* ObjCTry+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 3157F2EA219DCDDF003D72B1 /* ObjCTry+Helper.h */; };
+		3157F2EE219DCDDF003D72B1 /* ObjCTry+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 3157F2EA219DCDDF003D72B1 /* ObjCTry+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3157F2F0219DD3D5003D72B1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3157F2EF219DD3D5003D72B1 /* README.md */; };
 /* End PBXBuildFile section */
 
