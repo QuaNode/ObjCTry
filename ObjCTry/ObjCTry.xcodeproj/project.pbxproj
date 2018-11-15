@@ -20,6 +20,7 @@
 		3157F2EA219DCDDF003D72B1 /* ObjCTry+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ObjCTry+Helper.h"; sourceTree = "<group>"; };
 		3157F2EF219DD3D5003D72B1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3157F2F1219DD981003D72B1 /* ObjCTry.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; name = ObjCTry.podspec; path = ../ObjCTry.podspec; sourceTree = "<group>"; };
+		3157F2F2219DDC31003D72B1 /* LICENSE */ = {isa = PBXFileReference; explicitFileType = net.daringfireball.markdown; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +39,7 @@
 			children = (
 				3157F2F1219DD981003D72B1 /* ObjCTry.podspec */,
 				3157F2EF219DD3D5003D72B1 /* README.md */,
+				3157F2F2219DDC31003D72B1 /* LICENSE */,
 				3157F2D2219DCD8C003D72B1 /* ObjCTry */,
 				3157F2D1219DCD8C003D72B1 /* Products */,
 			);
