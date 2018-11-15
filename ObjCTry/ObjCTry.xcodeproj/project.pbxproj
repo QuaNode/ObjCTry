@@ -10,7 +10,6 @@
 		3157F2D5219DCD8C003D72B1 /* ObjCTry.h in Headers */ = {isa = PBXBuildFile; fileRef = 3157F2D3219DCD8C003D72B1 /* ObjCTry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3157F2EC219DCDDF003D72B1 /* ObjCTry+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3157F2E8219DCDDF003D72B1 /* ObjCTry+Helper.m */; };
 		3157F2EE219DCDDF003D72B1 /* ObjCTry+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 3157F2EA219DCDDF003D72B1 /* ObjCTry+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3157F2F0219DD3D5003D72B1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3157F2EF219DD3D5003D72B1 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +19,7 @@
 		3157F2E8219DCDDF003D72B1 /* ObjCTry+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ObjCTry+Helper.m"; sourceTree = "<group>"; };
 		3157F2EA219DCDDF003D72B1 /* ObjCTry+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ObjCTry+Helper.h"; sourceTree = "<group>"; };
 		3157F2EF219DD3D5003D72B1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3157F2F1219DD981003D72B1 /* ObjCTry.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; name = ObjCTry.podspec; path = ../ObjCTry.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +36,7 @@
 		3157F2C6219DCD8C003D72B1 = {
 			isa = PBXGroup;
 			children = (
+				3157F2F1219DD981003D72B1 /* ObjCTry.podspec */,
 				3157F2EF219DD3D5003D72B1 /* README.md */,
 				3157F2D2219DCD8C003D72B1 /* ObjCTry */,
 				3157F2D1219DCD8C003D72B1 /* Products */,
@@ -146,7 +147,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3157F2F0219DD3D5003D72B1 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +216,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -274,7 +274,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -292,7 +292,7 @@
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 59QNTEZ3U6;
+				DEVELOPMENT_TEAM = 526YGGCP9F;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -317,7 +317,7 @@
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 59QNTEZ3U6;
+				DEVELOPMENT_TEAM = 526YGGCP9F;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";

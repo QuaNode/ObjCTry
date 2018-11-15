@@ -13,7 +13,7 @@ Simple code wrapper. ObjCTry helps you by catching Objective-C exceptions within
   s.author           = { 'Svetislav Markovic' => 'svetam.sd@gmail.com' }
   s.source           = { :git => 'https://github.com/svetam/ObjCTry.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'ObjCTry/Classes/**/*'
   s.public_header_files = 'ObjCTry/Classes/**/*.h'

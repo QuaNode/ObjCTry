@@ -6,17 +6,17 @@ Simple code wrapper to help catching ObjC exceptions within Swift. It works simp
 
 ## Requirements
 
-iOS 8.0, Swift 3.0
+iOS 10.0,  Swift 4
 
 ## Example usage
 
 ```swift
 do {
-try ObjC.try {
-// code that throws ObjC exceptions
-}
+    try ObjC.try {
+        // code that throws ObjC exceptions
+    }
 } catch {
-print(error)
+    print(error)
 }
 ```
 
@@ -27,7 +27,7 @@ print(error)
 To install it, simply add the following line to your Podfile:
 
 ```ruby
-pod "ObjCTry", "~> 1.0"
+pod "ObjCTry", "~> 1.1"
 ```
 
 ### ObjCTry is available through [Carthage](https://github.com/Carthage/Carthage). 
@@ -35,7 +35,7 @@ pod "ObjCTry", "~> 1.0"
 To install it, simply add the following line to your Carthage file:
 
 ```ruby
-github "svetam/ObjCTry" ~> 1.0
+github "svetam/ObjCTry" ~> 1.1
 ```
 
 ## Author
@@ -44,4 +44,4 @@ Svetislav Markovic (svetam.sd@gmail.com)
 
 ## License
 
-ObjCTry is available under the MIT license. See the LICENSE file for more info.
+ObjCTry is available under the MIT license. See the [LICENSE](https://github.com/svetam/ObjCTry/blob/master/LICENCE) file for more info.
