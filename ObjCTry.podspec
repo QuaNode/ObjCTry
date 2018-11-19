@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ObjCTry'
-  s.version          = '1.1.0'
+  s.version          = '1.1.1'
   s.summary          = 'Catch Objective-C exceptions in your Swift project.'
 
   s.description      = <<-DESC

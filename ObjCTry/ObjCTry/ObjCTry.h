@@ -15,5 +15,4 @@ FOUNDATION_EXPORT double ObjCTryVersionNumber;
 FOUNDATION_EXPORT const unsigned char ObjCTryVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <ObjCTry/PublicHeader.h>
-
-
+#import <ObjCTry/ObjCTry+Helper.h>
