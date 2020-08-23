@@ -15,7 +15,9 @@
         return YES;
     }
     @catch (NSException *exception) {
-        *error = [[NSError alloc] initWithDomain:exception.name code:0 userInfo:exception.userInfo];
+        NSMutableDictionary *userInfo = @{NSLocalizedFailureReasonErrorKey: exception.reason}.mutableCopy;
+        if (exception.userInfo) [userInfo addEntriesFromDictionary:exception.userInfo];
+        *error = [[NSError alloc] initWithDomain:exception.name code:0 userInfo:userInfo];
     }
     return NO;
 }
