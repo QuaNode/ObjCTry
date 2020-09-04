@@ -7,8 +7,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface ObjC : NSObject
+@interface ObjC <T> : NSObject
 
-+ (__autoreleasing id)try:(__autoreleasing id(^)(void))tryBlock error:(__autoreleasing NSError **)error;
++ (T)try:(T(^)(void))tryBlock error:(__autoreleasing NSError **)error;
 
 @end
