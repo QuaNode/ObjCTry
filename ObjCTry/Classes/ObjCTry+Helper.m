@@ -9,7 +9,7 @@
 
 @implementation ObjC
 
-+ (id)try:(id(^)(void))tryBlock error:(__autoreleasing NSError **)error {
++ (__autoreleasing id)try:(__autoreleasing id(^)(void))tryBlock error:(__autoreleasing NSError **)error {
     @try {
         return tryBlock();
     }
