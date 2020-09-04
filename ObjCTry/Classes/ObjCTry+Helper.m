@@ -9,17 +9,16 @@
 
 @implementation ObjC
 
-+ (BOOL)try:(void(^)(void))tryBlock error:(__autoreleasing NSError **)error {
++ (id)try:(id(^)(void))tryBlock error:(__autoreleasing NSError **)error {
     @try {
-        tryBlock();
-        return YES;
+        return tryBlock();
     }
     @catch (NSException *exception) {
         NSMutableDictionary *userInfo = @{NSLocalizedFailureReasonErrorKey: exception.reason}.mutableCopy;
         if (exception.userInfo) [userInfo addEntriesFromDictionary:exception.userInfo];
         *error = [[NSError alloc] initWithDomain:exception.name code:0 userInfo:userInfo];
     }
-    return NO;
+    return nil;
 }
 
 @end
